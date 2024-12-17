@@ -11,13 +11,17 @@ This repository contains a Facial Recognition Attendance System implemented in P
 ## How It Works
 
 The project consists of two main components:
+
 ### 1.	Data Preparation and Encoding:
-	•	Encodes all the images in the attendance_dataset folder into face embeddings using face_recognition.
-	•	Saves the encodings into a serialized file (encodePickle) for future use.
+
+	1.	Encodes all the images in the attendance_dataset folder into face embeddings using face_recognition.
+	2.	Saves the encodings into a serialized file (encodePickle) for future use.
+ 
 ### 2.	Real-Time Face Recognition:
-	•	Captures a live video feed using a webcam.
-	•	Identifies faces in real-time and compares them with the pre-encoded dataset.
-	•	Marks attendance in the attendance.csv file when a match is found.
+
+	1.	Captures a live video feed using a webcam.
+	2.	Identifies faces in real-time and compares them with the pre-encoded dataset.
+	3.	Marks attendance in the attendance.csv file when a match is found.
 
 ## Project Workflow
 
@@ -31,6 +35,7 @@ The project consists of two main components:
 The system identifies individuals accurately in real-time, marking their attendance efficiently. It’s robust, scalable, and ideal for environments requiring automated attendance management.
 
 ## Authors
+
 	•	Chakradhar Punur
 	•	Bhargava M
 	•	Aditya Anand
